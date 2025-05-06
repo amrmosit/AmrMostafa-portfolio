@@ -29,6 +29,7 @@ function showPopup(bool) {
 window.onload = function () {
   // Certificates section
   const images = [
+    'html_finalprojimages/Certificates/Google Data Analytics Professional Certificate .png',
     'html_finalprojimages/Certificates/IBM Introduction to HTML, CSS, & JavaScript.png',
     'html_finalprojimages/Certificates/IBM Developing AI Applications with Python and Flask.png',
     'html_finalprojimages/Certificates/IBM Introduction to Software Engineering.png',
@@ -40,9 +41,8 @@ window.onload = function () {
     'html_finalprojimages/Certificates/IBM Getting Started with Git and GitHub.png',
     'html_finalprojimages/Certificates/IBM Introduction to Cloud Computing.png',
     'html_finalprojimages/Certificates/IBM Python for Data Science, AI & Development.png',
-    'html_finalprojimages/Certificates/IBM Software Developer Career Guide and Interview Prep.png'
-
-
+    'html_finalprojimages/Certificates/IBM Software Developer Career Guide and Interview Prep.png',
+    
   ];
 
   let currentIndex = 0;

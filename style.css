@@ -458,7 +458,7 @@ button:hover {
 
 #image-display {
   width: 800px;
-  height: 600px;
+  height: 620px;
   background-size: cover;
   background-position: center;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
@@ -483,3 +483,27 @@ button:hover {
 .nav-button:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
+/* eduaction section*/
+.education-certificate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.education-certificate img {
+  width: 100px; /* Small size */
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.education-certificate img:hover {
+  transform: scale(5); /* Doubles in size */
+  z-index: 10;
+}
+
+
+
