@@ -447,3 +447,39 @@ button:hover {
 .project-card a:hover {
   text-decoration: underline;
 }
+
+/* Certificates */
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#image-display {
+  width: 800px;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.nav-button {
+  font-size: 24px;
+  background-color: rgb(216, 222, 222);
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 10px;
+  
+  /* Add height and width */
+  height: 500px; /* Adjust the height as needed */
+  width: 40px;  /* Adjust the width as needed */
+}
+
+
+.nav-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

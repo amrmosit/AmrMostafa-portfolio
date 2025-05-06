@@ -26,3 +26,49 @@ function showPopup(bool) {
     document.getElementById('popup').style.visibility = 'hidden'
   }
 }
+window.onload = function () {
+  // Certificates section
+  const images = [
+    'html_finalprojimages/Certificates/IBM Introduction to HTML, CSS, & JavaScript.png',
+    'html_finalprojimages/Certificates/IBM Developing AI Applications with Python and Flask.png',
+    'html_finalprojimages/Certificates/IBM Introduction to Software Engineering.png',
+
+    'html_finalprojimages/Certificates/IBM Developing BackEnd Apps with Node.js&Express.png',
+    'html_finalprojimages/Certificates/IBM Developing Front-End Apps with React.png',
+    'html_finalprojimages/Certificates/IBM Django App Dev with SQL&Databases.png',
+    'html_finalprojimages/Certificates/IBM Generative AI- Elevate your Software Development Career.png',
+    'html_finalprojimages/Certificates/IBM Getting Started with Git and GitHub.png',
+    'html_finalprojimages/Certificates/IBM Introduction to Cloud Computing.png',
+    'html_finalprojimages/Certificates/IBM Python for Data Science, AI & Development.png',
+    'html_finalprojimages/Certificates/IBM Software Developer Career Guide and Interview Prep.png'
+
+
+  ];
+
+  let currentIndex = 0;
+
+  const imageDisplay = document.getElementById('image-display');
+  const prevButton = document.querySelector('.nav-button.prev');
+  const nextButton = document.querySelector('.nav-button.next');
+
+  function updateImage() {
+    imageDisplay.style.backgroundImage = `url('${images[currentIndex]}')`;
+      document.getElementById('image-counter').textContent = `Certificate ${currentIndex + 1} of ${images.length}`;
+
+  }
+
+  prevButton.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    updateImage();
+  });
+
+  nextButton.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % images.length;
+    updateImage();
+  });
+
+  updateImage(); // Show the first image on load
+};
+
+
+
