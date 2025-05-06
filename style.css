@@ -176,21 +176,83 @@ h2 {
   justify-content: center; /* Center the skills horizontally */
 }
 
-.skill {
-  border: 1px solid gray;
-  display: block;
-  border-radius: 50%; /* Make the skill container circular */
+#skills {
+  padding: 50px;
   text-align: center;
-  margin: 10px;
-  padding: 20px;
-  width: 150px; /* Set the width and height to the same value */
-  height: 150px;
-  font-size: 30px;
-  box-shadow: 0 3px 10px gray;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #007bff;
+}
+
+.skills-wrapper {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.skill-circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  text-align: center;
+  display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.skill-circle:hover {
+  background-color: #d1e7dd;
+}
+
+.circle-title {
+  pointer-events: none;
+}
+
+.skill-popup {
+  display: none;
+  position: absolute;
+  top: 160px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 15px;
+  width: max-content;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.skill-popup .skill {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.skill-popup .skill img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.skill-popup .skill h6 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.skill-circle:hover .skill-popup {
+  display: block;
 }
 
 
