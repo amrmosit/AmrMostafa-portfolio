@@ -42,6 +42,7 @@ window.onload = function () {
     'html_finalprojimages/Certificates/IBM Generative AI- Elevate your Software Development Career.png',
     'html_finalprojimages/Certificates/IBM Python for Data Science, AI & Development.png',
     'html_finalprojimages/Certificates/IBM Software Developer Career Guide and Interview Prep.png',
+    'html_finalprojimages/Certificates/AWS_Academy_Graduate___AWS_Academy_Cloud_foundation.png',
   ];
 
   let currentIndex = 0;
