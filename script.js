@@ -29,6 +29,7 @@ function showPopup(bool) {
 window.onload = function () {
   // Certificates section
   const images = [
+    'html_finalprojimages/Certificates/IBM IBM Full Stack Software Developer.png',
     'html_finalprojimages/Certificates/Google Data Analytics Professional Certificate.png',
     'html_finalprojimages/Certificates/IBM Developing Front-End Apps with React.png',
     'html_finalprojimages/Certificates/IBM Developing BackEnd Apps with Node.js&Express.png',
