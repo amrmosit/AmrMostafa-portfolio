@@ -132,8 +132,8 @@ h2 {
 }
 
 #about-me h1 {
-  font-size: 65px;
-  margin-top: 90px;
+  font-size: 45px;
+  margin-top: 10px;
   color: #08088c;
 }
 
@@ -141,7 +141,7 @@ h2 {
   font-size: 20px; /* reduced slightly for desktop readability */
   color: rgb(128, 128, 128);
   margin-top: 0;
-  padding: 16px;
+  padding: 0px;
   width: 100%;
   box-sizing: border-box;
   
@@ -155,8 +155,8 @@ h2 {
 }
 
 .profile_image {
-  width: 300px;
-  height: 400px;
+  width: 220px;
+  height: 300px;
   vertical-align: middle;
   margin: 5px;
   border-radius: 50%;
