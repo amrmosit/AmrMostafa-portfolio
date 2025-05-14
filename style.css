@@ -117,8 +117,13 @@ h2 {
 
 .container {
   display: flex;
+  flex-direction: column;  /* stack items vertically */
+  width: 90%;
+  max-width: 100%;         /* prevent overflow on small screens */
+  margin: 0 auto;          /* center the container */
+  box-sizing: border-box;  /* include padding in width calculation */
+  padding: 16px;
 }
-
 /* About Me */
 
 .about-me {
@@ -133,9 +138,20 @@ h2 {
 }
 
 #about-me p {
-  font-size: 25px;
+  font-size: 20px; /* reduced slightly for desktop readability */
   color: rgb(128, 128, 128);
-  margin-top: -1cm;
+  margin-top: 0;
+  padding: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  
+}
+/* Responsive fix for phones */
+@media (max-width: 600px) {
+  #about-me p {
+    font-size: 16px;
+    padding: 12px;
+  }
 }
 
 .profile_image {
@@ -196,6 +212,20 @@ h2 {
 }
 
 .circle-title {
+  width: 100px;              /* Fixed or responsive width */
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ccc;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;             /* Padding gives space for wrapping */
+  box-sizing: border-box;
+  overflow-wrap: break-word; /* Ensures long words break */
+  word-wrap: break-word;
+  overflow: hidden;          /* Prevent text from spilling out */
+  font-size: 14px;
   pointer-events: none;
 }
 
