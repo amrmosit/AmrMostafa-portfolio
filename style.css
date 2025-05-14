@@ -2,10 +2,13 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding-top: 30px;
   padding-bottom: 20px;
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
 }
-
+img {
+  max-width: 100%;
+  height : auto;
+}
 
 /* Navigation Bar */
 #home {
@@ -118,7 +121,7 @@ h2 {
 .container {
   display: flex;
   flex-direction: column;  /* stack items vertically */
-  width: 90%;
+  width: 95%;
   max-width: 100%;         /* prevent overflow on small screens */
   margin: 0 auto;          /* center the container */
   box-sizing: border-box;  /* include padding in width calculation */
@@ -526,11 +529,17 @@ button:hover {
   justify-content: center;
   align-items: center;
   position: relative;
+
+  width: 80%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 #image-display {
-  width: 800px;
-  height: 620px;
+  width: 760px;
+  height: 600px;
   background-size: cover;
   background-position: center;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
