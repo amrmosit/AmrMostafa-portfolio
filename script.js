@@ -39,6 +39,8 @@ window.onload = function () {
     'html_finalprojimages/Certificates/IBM Application Development using Microservices and Serverless.png',
     'html_finalprojimages/Certificates/IBM Getting Started with Git and GitHub.png',
     'html_finalprojimages/Certificates/IBM Introduction to HTML, CSS, & JavaScript.png',
+    'html_finalprojimages/Certificates/IBM Getting Started with Front-End and Web Development.png',
+    'html_finalprojimages/Certificates/IBM Designing User Interfaces and Experiences UIUX.png',
     'html_finalprojimages/Certificates/IBM Introduction to Cloud Computing.png',
     'html_finalprojimages/Certificates/IBM Introduction to Software Engineering.png',
     'html_finalprojimages/Certificates/IBM Generative AI- Elevate your Software Development Career.png',
