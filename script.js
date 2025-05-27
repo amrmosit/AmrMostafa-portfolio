@@ -33,6 +33,7 @@ window.onload = function () {
     'html_finalprojimages/Certificates/Google Data Analytics Professional Certificate.png',
     'html_finalprojimages/Certificates/IBM Developing Front-End Apps with React.png',
     'html_finalprojimages/Certificates/IBM Developing BackEnd Apps with Node.js&Express.png',
+    'html_finalprojimages/Certificates/Microsoft Introduction to Programming With Csharp.png',
     'html_finalprojimages/Certificates/IBM Django App Dev with SQL&Databases.png',
     'html_finalprojimages/Certificates/IBM Developing AI Applications with Python and Flask.png',
     'html_finalprojimages/Certificates/IBM Introduction to Containers with Docker, Kubernetes.png',
